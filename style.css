@@ -1,0 +1,126 @@
+html {
+	height:100%;
+	background-image: url("background.png");
+    background-repeat: repeat-x;
+}
+
+body,  button,  input,  table,  textarea,  select {
+	font:normal 1em/1.5 arial, helvetica, sans-serif;
+	color:rgb(100,10,10);
+}
+body {
+	display:flex;
+	flex-direction:column;
+	background-image: url("left.png"), url("right.png");
+	background-position: left bottom, right bottom;
+	background-repeat: no-repeat, no-repeat;
+	margin:0 auto;
+	text-align: justify;
+}
+main {
+	flex:1 0 auto;
+	width:42em;
+	height:54em;
+	margin:0 auto;
+	padding:1.5em;	
+}
+
+h1 {
+	font-size:2em;
+}
+
+p {
+	padding-bottom:1.5em;
+}
+
+b, strong {
+}
+
+section {
+	color: rgb(0,0,0);
+}
+
+
+.tabset > input {
+  display:block; /* "enable" hidden elements in IE/edge */
+  position:absolute; /* then hide them off-screen */
+  left:-100%;
+}
+.tabset > ul {
+  position:relative;
+  z-index:999;
+  list-style:none;
+  display:flex;
+  margin-bottom:-1px;
+}
+.tabset > ul label,
+.tabset > div {
+  border:1px solid hsl(220, 100%, 60%);
+  background:rgb(255, 255, 255);
+}
+.tabset > ul label {
+  display:inline-block;
+  padding:0.25em 1em;
+  background:rgb(230, 230, 230);
+  border-right-width:0;
+}
+/*rounding... table...*/
+.tabset > ul li:first-child label {
+  border-radius:0.5em 0 0 0;
+}
+.tabset > ul li:last-child label {
+  border-right-width:1px;
+  border-radius:0 0.5em 0 0;
+}*/
+
+.tabset > div {
+  position:relative;
+  background:rgb(255, 255, 255);
+  border-radius:0 0.5em 0.5em 0.5em;
+}
+.tabset > input:nth-child(1):focus ~ ul li:nth-child(1) label,
+.tabset > input:nth-child(2):focus ~ ul li:nth-child(2) label,
+.tabset > input:nth-child(3):focus ~ ul li:nth-child(3) label,
+.tabset > input:nth-child(4):focus ~ ul li:nth-child(4) label,
+.tabset > input:nth-child(5):focus ~ ul li:nth-child(5) label,
+.tabset > input:nth-child(6):focus ~ ul li:nth-child(6) label,
+.tabset > input:nth-child(7):focus ~ ul li:nth-child(7) label,
+.tabset > input:nth-child(8):focus ~ ul li:nth-child(8) label,
+.tabset > input:nth-child(9):focus ~ ul li:nth-child(9) label {
+  text-decoration:underline;
+  animation: mymove2 1s infinite;
+}
+.tabset > input:nth-child(1):checked ~ ul li:nth-child(1) label,
+.tabset > input:nth-child(2):checked ~ ul li:nth-child(2) label,
+.tabset > input:nth-child(3):checked ~ ul li:nth-child(3) label,
+.tabset > input:nth-child(4):checked ~ ul li:nth-child(4) label,
+.tabset > input:nth-child(5):checked ~ ul li:nth-child(5) label,
+.tabset > input:nth-child(6):checked ~ ul li:nth-child(6) label,
+.tabset > input:nth-child(7):checked ~ ul li:nth-child(7) label,
+.tabset > input:nth-child(8):checked ~ ul li:nth-child(8) label,
+.tabset > input:nth-child(9):checked ~ ul li:nth-child(9) label {
+  background:rgb(255, 255, 255);%selected tab background
+  border-bottom-color:grey;
+}
+/*hiding and showing the content section*/
+.tabset > div > section,
+.tabset > div > section h2 {
+  position:absolute;
+  top:-999em;
+  left:-999em;
+}
+.tabset > div > section {
+  padding:1em 1em 0;
+}
+.tabset > input:nth-child(1):checked ~ div > section:nth-child(1),
+.tabset > input:nth-child(2):checked ~ div > section:nth-child(2),
+.tabset > input:nth-child(3):checked ~ div > section:nth-child(3),
+.tabset > input:nth-child(4):checked ~ div > section:nth-child(4),
+.tabset > input:nth-child(5):checked ~ div > section:nth-child(5),
+.tabset > input:nth-child(6):checked ~ div > section:nth-child(6),
+.tabset > input:nth-child(7):checked ~ div > section:nth-child(7),
+.tabset > input:nth-child(8):checked ~ div > section:nth-child(8),
+.tabset > input:nth-child(9):checked ~ div > section:nth-child(9) {
+  position:Static;
+}
+
