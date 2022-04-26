@@ -1,0 +1,6591 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/pmercuriali/ontologies/2022/0/ROCA"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/pmercuriali/ontologies/2022/0/ROCA">
+    <Prefix name="" IRI="http://www.semanticweb.org/pmercuriali/ontologies/2022/0/ROCA"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>ROCA (RObotics, Cognition, and Archaeology) is an ontology designed to describe behavioural processes in the context of robotics, archaeology, and primatilogy, with a focus on tool use and tool making. 
+It is inspired by the SOMA, DOLCE, and OpenCyc ontologies.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Abandoning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Abrasion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accompanying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accumulating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acheulean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acquiring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActionNegation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AddingSomething"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adhering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adjusting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adolescent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Advancing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Africa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Afropithecus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Afternoon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agent-Features"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agent-Generic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aiming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Algorithm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alternating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#America"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AngularDistance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnimalBodyPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AntFishing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anticipating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anvil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Appendage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ApplyingSomethingToSurface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Approaching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ardipithecus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArmTrajectory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arousing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arranging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arriving"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ascending"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtPoseState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attaching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AttachmentState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attacking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attempting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aurignacian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Australopithecus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoiding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AvoidingSomething"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Axe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#B21"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Baboon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Balancing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BalancingSelf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basalt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Battering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BehaviourObservationPlace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BehaviouralInstance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bending"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BendingDown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BimanualAsymmetricalEdgeHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BimanualAsymmetricalFaceHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BimanualAsymmetricalFlipHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BimanualFulcrumFaceHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BimanualPointHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BimanualStandFaceHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BimanualSymmetricalEdgeHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BimanualSymmetricalFaceHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BitingOff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bivalve"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlackColour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bleeding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlueColour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodilyFunctions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BoneMarrow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BoneProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bonobo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BosTaurusBone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bossou"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BossouChimpanzee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BothHandsAsymmetrical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BothHandsConfiguration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BothHandsSymmetrical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bothering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bowl-Generic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Box"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Branch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brandishing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brazil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breaking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BreakingOff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BreakingOpen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breathing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BritishCowBone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BritishCowMeat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Building"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BurmeseLongTailedMacaque"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BushbabyMeat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CalendarDay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capuchin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carrying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CarryingWhileLocomoting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CartesianCoordinateSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Catching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cavity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ceasing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CebusLibidinosus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CebusMonkey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CerealFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Changing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Charging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chasing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chewing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chimpanzee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Choosing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clapping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cleaning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CleaningSelf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CleaningTeeth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClearGlass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clenching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Climbing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClimbingDown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClimbingUp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClosingAContainerArtifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClosingSomething"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coarse-Grained"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collecting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Colliding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CollisionState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ColorlessThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Colour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ColouredThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Combining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Complex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComplexAction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConcaveTangibleObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConcreteSlab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Configuration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Connecting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Connection-Physical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consisting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consuming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConsumingFoodOrDrink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConsumingInedibleThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contacting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Container"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContainerArtifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContainerState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Continuing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContinuousTimeInverval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ControllingSomething"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoordinateSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Copulating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoulaNut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CrackedShell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cracking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CrackingOpen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CrackingOpenANut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CreationOrDestructionEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crossing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crouching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crumbling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crumpling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crunching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crushing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CrushingPattern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crustacean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cuisine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cylinder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DOI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DailyPersonalCleaning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dangling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dashing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dendropithecidae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Denisovan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Departing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Descending"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Detaching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DetariumNut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeviceState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diecké"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Digit-AnatomicalPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diorite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dipping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DirectMouthing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Discarding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disintegrating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dislocating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dislodging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Displacing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Displaying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Distance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Distance-Absolute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dividing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dragging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drawing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drinking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DrinkingWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dropping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DrySeason"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EarlyAfternoon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EarlyMorning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EastAfrica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EasyToCrack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EdgeHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EdibleStuff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Egg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eggshell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EightYearOld"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ejecting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ekembo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elderly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Embracing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emerging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emitting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ending"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnduringThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Erosion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Escaping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evening"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event-Localized"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Excreting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exiting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExposingBodyPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExtendingBodyPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Extracting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eye"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Face"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FaceHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facility-Tended"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facility-Untended"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Failing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feeding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Female"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Filling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FineMaterialCarateristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Finger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Finishing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fishing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FiveYearOld"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FixedObstacle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FixedStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fixing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flailing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flanging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flattening"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flipping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FluidFlow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FluidTangibleThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Folding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoliatedMicaceousLayers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Following"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoodOrDrink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoodOrDrinkOrIngredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoodUtensil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoodVessel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foraging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FourYearOld"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fracturing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrameOfReference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fraying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FreezingRain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Friday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GaseousTangibleThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gathering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeographicalLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Going"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gorilla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Granite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Granular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grasping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GreenColour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grooming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GroomingOther"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GroomingSelf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guinea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#H.Heidelbergensis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Haily"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hammer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HandConfiguration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HandTool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HandfulOfLeaves"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hanging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HardToCrack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harvesting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Height"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeightAboveGround"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HingedJoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HistoricalOrPrehistoricalInterval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hitting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HittingForcefully"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HittingRepeatedly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HolderGripper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HoldingAnObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HoldingFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HoldingSubstrate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HoldingWithHand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hollowing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hominid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HominidFamily"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HominidGenus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HominidSpecies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hominidae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hominini"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hominioidea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Homo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HomoAntecessor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HomoErectus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HomoErgaster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HomoHabilis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HomoNeanderthalensis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HomoSapiens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hooting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanBone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanEdibleFruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanScaleObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hurricane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hurrying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IceStorm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Impact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Incorporation-Physical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndexFinger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inferred"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationBearingObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationBearingThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingesting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instrument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntactShell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntermediateGrasping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IvoryCoast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IvoryCoastChimpanzee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Japan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JapaneseMacaque"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Joint-Physical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Juice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jumping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Juvenile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kamoyapithecus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kernelshell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kicking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LaemSonNationalPark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Landing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LateAfternoon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LateMorning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lava"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leaf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LeafMidrib"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LeafyTwig"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leaning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LeaningForward"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leaping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leaving"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LeftArm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LeftFoot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LeftHand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LeftHandTrajectory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LeftLeg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lifting-Full"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lifting-Partial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LiftingAnObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Limb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LineatedMicaceousLayers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LiquidTangibleThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LittleFinger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocationFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocationNaturalType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocationType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LookingForAThingOrTypeOfThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LookingForAnIBO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LookingForSomething"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LookingForSomething-Definite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LookingForSomething-Indefinite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LookingForSomething-IndefiniteMultiple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LookingForSomething-IndefiniteSingle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LoweringAnObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MacacaFuscataFuscata"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MacacaFuscataYakui"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Macaque"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MakingSound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MakingU-Turn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Male"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mangrove"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManihotNut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManipulationPlace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MarineGastropod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MarinePark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MassOrSpatialQuantity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Material"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialHandling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MathematicalObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MathematicalOrComputationalThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MathematicalOrdering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MathematicalThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Matrix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurableQuantity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetaEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Microfracture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Microlithic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiddleAgedAdult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiddleFinger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Midnight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Milk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiscActions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MixingSomething"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModernSeason"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonkeyChow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Morning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mousterian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moving"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MovingAnObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MovingAway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MovingBodyPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MovingWholeBody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Muzzle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Myanmar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaiborSoitQuartzite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nakalipithecus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NationalPark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalDisaster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalShell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Naturefact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neanderthal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NeriteSnail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Night"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NoAgeAvailable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NoSexAvailable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonHumanBone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonSessile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonSmoothStrikeRecoiling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonToolHandUse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Noon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nursing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nutshell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObjectManipulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObjectState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObjectType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObjectTypeByIntrinsicState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Observed-Direct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OilPalmNut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oldowan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OlduvaiGorge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OneHandConfiguration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OpenShell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OpeningAContainerArtifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OpeningSomething"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orang-Utan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrangeColour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oreopithecus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganicPerson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orientation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orientation2D"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orientation3D"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orrorin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OswaltTaxonomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ouranopithecus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Overcast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PIassavaNut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PalmarPinching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PandaNut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paranthropus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PartialOrdering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PartialOrdering-Strict"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pausing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perceiving"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perceiving-Unvoluntary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perceiving-Voluntary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PerceptionState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalDevice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PickingNose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PickingUpAnObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PickingUpLeaves"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PickingUpTool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlantMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plastic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Playing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Point"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Point2D"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Point3D"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PointHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostureConfiguration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pouring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PouringSomethingInto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PouringSomethingOnto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PowerGrasping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreModeOne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrecisionGrasping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Preparing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreparingFoodOrDrink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrismaticJoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proconsul"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proconsulidae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProcurementPlace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prowling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pulling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PurposefulAction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pushing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PuttingDownAnObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PuttingSomethingIntoSomething"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PuttingSomethingOntoSomething"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualitativeAge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualitativeTimeOfDay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuantitativeAge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quartz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quartzite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rainy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Raising"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rangwapithecus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Re-entering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recoiling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reconstituted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RedColobusMonkey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RedColour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RedHowlerMonkey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegulatingFluidFlow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Removing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RemovingAntFromAnthill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RemovingBoneMarrowFromBone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RemovingMaterialFromAContainer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RemovingNutFromNutshell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RemovingShellfishFromShell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Repeating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RightArm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RightFoot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RightHand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RightHandTrajectory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RightLeg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RingFinger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RioGrandeDoNorte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rising"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Robot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RockOyster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RockyShore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RotatingAnObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RotationMatrix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RotationMatrix2D"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RotationMatrix3D"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RottenShell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Running"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RunningAway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sahelanthropus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SandStorm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sandstone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SandyBeach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SapajusLibidinosus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saturday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scampering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Screaming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scurrying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeaAlmond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seafood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeafoodType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seashell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Season"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sessile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SevenYearOld"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShellState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShoreCoastalFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShorePlantSeed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Simple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sitting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Situation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SixteenYearOld"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Slipping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmoothStrikeRecoiling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SnowStorm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Snowy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SouthAmerica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpatialQuantity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpatialThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpatialThingTypeByShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecificAction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sphere"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpiderMonkey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spitting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spraying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpreadingSomethingOnSurface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Squatting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SquattingDown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Squealing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stairway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Standing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StandingBipedal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StandingTripedal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StandingUnipedal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StandingUp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Starting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StaticSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StaticTool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StepPattern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stepping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StoneAnvil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StoneHammer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StoneIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stormy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Striking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Striking-Overhand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Striking-Underhand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stripping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StrippingLeaves"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubAdult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubBout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubjectiveShellHardness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subsistant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Summer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sunday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sunny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SuperficialAbrasion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SupportingBody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SupportingFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sweating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TR2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TUM_Rosie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TailTrajectory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TakingBath"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tanzania"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaskState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technounit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemperateOrPolarSeason"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemporalExtendedThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemporalThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemporalThings-Features"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerminaliaCatappa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Texture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thailand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThaosIsPark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThreeYearOld"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thumb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thursday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeInterval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ToolGatheringLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ToolUseLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ToothLippedSnail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tornado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trajectory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Translating-ChangingLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TranslatingAnObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transporting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TreeHole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TropicalSeason"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TucumNut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tuesday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Turkanapithecus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Turning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TurningOffWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TurningOnWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Twig"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Twisting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Typhoon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnattachedEdgeHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnderTwoYearOld"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UndeterminateAge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UndeterminateSex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnimanualClapFaceHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnimanualEdgeHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnimanualFaceHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnimanualFulcrumFaceHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnimanualJabPointHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnimanualPointHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnimanualShellFaceHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnimanualShellPointHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnimanualSupportedPointHammering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Urinating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uttering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vocalizing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Volume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vomiting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Waiting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Walking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WalkingDown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weapon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WearPattern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WeatherCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wednesday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weekday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WestAfrica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WetSeason"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Whimpering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Whisling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WhiteColour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Width"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WildBeardedCapuchin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Winter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WipingFeces"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WipingMenstrualBlood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WipingMud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WipingSelf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WipingStickyBanana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WipingUrine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WoodAnvil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WoodHammer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrestling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YamPulp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YellowColour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Young"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YoungAdult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Youngster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zoo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aethiopicus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anamensis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#boisei"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#erectus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gordoni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#habilis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hamiltoni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heidelbergensis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kalakolensis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#major"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nyanzae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#platyops"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rudolfensis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sapiens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#turkanensis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aboveOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#actor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#after"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#afterI"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#agent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ambiguousTemporalConjunction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#articleDOI"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#beforeI"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#behind-Generally"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belowOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bodyPartsUsed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#center"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#connectedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#connectedTo-Prismatically"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#connectedTo-Rigidly"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#connectedTo-Rotationally"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#connectedTo-Thermically"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsCavity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#countryOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#createdBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#decomposesInto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#describedInMap"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#describedInText"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#describes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#describesBout"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#direction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#directionalRelations"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#doneBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#duringI"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#duringInvI"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#encloses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#endTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#equalI"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#eventOccursAt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#finishesI"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#finishesInvI"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#goal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#gripType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#handModality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hardness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAge"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEnclosure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSex"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hingedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inCenterOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inFrontOf-Generally"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inReachOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inferredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#initialPosture"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#insideOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#intervalRelation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#into"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#involved"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#involvedAction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#involvedAgent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#involvedTool"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#longitudinalDirection"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#material"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#meetsI"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#meetsInvI"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#near"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nextAction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nextDetectionOfObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nextEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#normalDirection"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#objectShape"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#on"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#outsideOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#overlaps"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#overlapsInvI"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#parallelTemporalConjunction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#parts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perceivedThing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#physicalDecomposition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#physicalParts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#postEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#posture"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#postureDuringMovement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#preEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#purpose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#regionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#relativeHandSizeOfObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sequentialTemporalConjunction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#spatiallyRelated"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#startTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#startsI"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#startsInvI"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#stateOfObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#stateTransition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#target"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#taskEndState"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#taskRelations"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#taskStartState"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#taskToAchieve"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temporalConjunction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temporallyRelated"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temporallySubsumes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#toTheLeftOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#toTheRightOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#toTheSideOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#toolInvolved"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#toolMovement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#toolUsed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#topologicalRelations"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#visibleFrom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#area"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#depth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#diameter"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#distance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#duration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#height"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#length"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mass"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#massOfAgent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#massOfObject"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#radius"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#relativeHandSizeOfObject"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sizeParameterOfObject"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temperature"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#volume"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#width"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Abandoning"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Abrasion"/>
+        <Class IRI="#WearPattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accompanying"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accumulating"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acheulean"/>
+        <Class IRI="#StoneIndustry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acquiring"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActionNegation"/>
+        <Class IRI="#MetaEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adding"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AddingSomething"/>
+        <Class IRI="#Incorporation-Physical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adhering"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adjusting"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adolescent"/>
+        <Class IRI="#QualitativeAge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adult"/>
+        <Class IRI="#QualitativeAge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Advancing"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Africa"/>
+        <Class IRI="#GeographicalLocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Afropithecus"/>
+        <Class IRI="#HominidGenus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Afternoon"/>
+        <Class IRI="#QualitativeTimeOfDay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Age"/>
+        <Class IRI="#Agent-Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aiming"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Algorithm"/>
+        <Class IRI="#MathematicalOrComputationalThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alternating"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America"/>
+        <Class IRI="#GeographicalLocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AngularDistance"/>
+        <Class IRI="#SpatialQuantity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnimalBodyPart"/>
+        <Class IRI="#HumanScaleObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AntFishing"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anticipating"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anvil"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Appendage"/>
+        <Class IRI="#AnimalBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApplyingSomethingToSurface"/>
+        <Class IRI="#PuttingSomethingOntoSomething"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Approaching"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ardipithecus"/>
+        <Class IRI="#Homo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Area"/>
+        <Class IRI="#SpatialQuantity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arm"/>
+        <Class IRI="#Limb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArmTrajectory"/>
+        <Class IRI="#Trajectory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arousing"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arranging"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arriving"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artifact"/>
+        <Class IRI="#OswaltTaxonomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ascending"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asia"/>
+        <Class IRI="#GeographicalLocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtPoseState"/>
+        <Class IRI="#TaskState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attaching"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AttachmentState"/>
+        <Class IRI="#TaskState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attacking"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attempting"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aurignacian"/>
+        <Class IRI="#StoneIndustry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Australopithecus"/>
+        <Class IRI="#HominidGenus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoiding"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvoidingSomething"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Axe"/>
+        <Class IRI="#HandTool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B21"/>
+        <Class IRI="#Robot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baboon"/>
+        <Class IRI="#OrganicPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Balancing"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Balancing"/>
+        <Class IRI="#NonToolHandUse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BalancingSelf"/>
+        <Class IRI="#NonToolHandUse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banging"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barking"/>
+        <Class IRI="#MakingSound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basalt"/>
+        <Class IRI="#Stone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basin"/>
+        <Class IRI="#ConcaveTangibleObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basking"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Battering"/>
+        <Class IRI="#WearPattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BehaviourObservationPlace"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BehaviouralInstance"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bending"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BendingDown"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BimanualAsymmetricalEdgeHammering"/>
+        <Class IRI="#EdgeHammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BimanualAsymmetricalFaceHammering"/>
+        <Class IRI="#FaceHammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BimanualAsymmetricalFlipHammering"/>
+        <Class IRI="#FaceHammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BimanualFulcrumFaceHammering"/>
+        <Class IRI="#FaceHammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BimanualPointHammering"/>
+        <Class IRI="#PointHammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BimanualStandFaceHammering"/>
+        <Class IRI="#FaceHammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BimanualSymmetricalEdgeHammering"/>
+        <Class IRI="#EdgeHammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BimanualSymmetricalFaceHammering"/>
+        <Class IRI="#FaceHammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biting"/>
+        <Class IRI="#MovingBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BitingOff"/>
+        <Class IRI="#Biting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bivalve"/>
+        <Class IRI="#Seafood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlackColour"/>
+        <Class IRI="#ColouredThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bleeding"/>
+        <Class IRI="#BodilyFunctions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlueColour"/>
+        <Class IRI="#ColouredThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodilyFunctions"/>
+        <Class IRI="#SpecificAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bone"/>
+        <Class IRI="#BoneProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BoneMarrow"/>
+        <Class IRI="#BoneProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BoneProducts"/>
+        <Class IRI="#Meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bonobo"/>
+        <Class IRI="#OrganicPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BosTaurusBone"/>
+        <Class IRI="#NonHumanBone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bossou"/>
+        <Class IRI="#Guinea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BossouChimpanzee"/>
+        <Class IRI="#Chimpanzee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BothHandsAsymmetrical"/>
+        <Class IRI="#BothHandsConfiguration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BothHandsConfiguration"/>
+        <Class IRI="#HandConfiguration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BothHandsSymmetrical"/>
+        <Class IRI="#BothHandsConfiguration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bothering"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bout"/>
+        <Class IRI="#TemporalExtendedThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bowl-Generic"/>
+        <Class IRI="#Basin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Box"/>
+        <Class IRI="#SpatialThingTypeByShape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Branch"/>
+        <Class IRI="#PlantMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brandishing"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brazil"/>
+        <Class IRI="#SouthAmerica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breaking"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BreakingOff"/>
+        <Class IRI="#Breaking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BreakingOpen"/>
+        <Class IRI="#Breaking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breathing"/>
+        <Class IRI="#MovingBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BritishCowBone"/>
+        <Class IRI="#NonHumanBone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BritishCowMeat"/>
+        <Class IRI="#Meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Building"/>
+        <Class IRI="#FixedStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BurmeseLongTailedMacaque"/>
+        <Class IRI="#Macaque"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BushbabyMeat"/>
+        <Class IRI="#Meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CalendarDay"/>
+        <Class IRI="#Date"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calling"/>
+        <Class IRI="#MakingSound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capuchin"/>
+        <Class IRI="#OrganicPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carrying"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarryingWhileLocomoting"/>
+        <Class IRI="#Transporting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CartesianCoordinateSystem"/>
+        <Class IRI="#CoordinateSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Catching"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cavity"/>
+        <Class IRI="#ConcaveTangibleObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ceasing"/>
+        <Class IRI="#MetaEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CebusLibidinosus"/>
+        <Class IRI="#WildBeardedCapuchin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CebusMonkey"/>
+        <Class IRI="#WildBeardedCapuchin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CerealFood"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Changing"/>
+        <Class IRI="#MetaEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Charging"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chasing"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chewing"/>
+        <Class IRI="#MovingBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chimpanzee"/>
+        <Class IRI="#OrganicPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Choosing"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clapping"/>
+        <Class IRI="#Striking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cleaning"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cleaning"/>
+        <Class IRI="#Removing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CleaningSelf"/>
+        <Class IRI="#Cleaning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CleaningTeeth"/>
+        <Class IRI="#DailyPersonalCleaning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClearGlass"/>
+        <Class IRI="#ColorlessThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clenching"/>
+        <Class IRI="#MovingBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climbing"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClimbingDown"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClimbingUp"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClosingAContainerArtifact"/>
+        <Class IRI="#ClosingSomething"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClosingSomething"/>
+        <Class IRI="#SpecificAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coarse-Grained"/>
+        <Class IRI="#Texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collecting"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collecting"/>
+        <Class IRI="#SpecificAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Colliding"/>
+        <Class IRI="#Translating-ChangingLocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CollisionState"/>
+        <Class IRI="#TaskState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColorlessThing"/>
+        <Class IRI="#SpatialThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Colour"/>
+        <Class IRI="#ObjectType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColouredThing"/>
+        <Class IRI="#Colour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Combining"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coming"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Complex"/>
+        <Class IRI="#OswaltTaxonomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComplexAction"/>
+        <Class IRI="#PurposefulAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConcaveTangibleObject"/>
+        <Class IRI="#EnduringThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConcreteSlab"/>
+        <Class IRI="#FixedStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cone"/>
+        <Class IRI="#SpatialThingTypeByShape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Configuration"/>
+        <Class IRI="#StaticSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Connecting"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Connection-Physical"/>
+        <Class IRI="#EnduringThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consisting"/>
+        <Class IRI="#MetaEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consuming"/>
+        <Class IRI="#MovingBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConsumingFoodOrDrink"/>
+        <Class IRI="#Ingesting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConsumingInedibleThing"/>
+        <Class IRI="#Ingesting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contacting"/>
+        <Class IRI="#MakingSound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Container"/>
+        <Class IRI="#EnduringThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContainerArtifact"/>
+        <Class IRI="#Container"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContainerState"/>
+        <Class IRI="#ObjectState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Continuing"/>
+        <Class IRI="#MetaEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContinuousTimeInverval"/>
+        <Class IRI="#TimeInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ControllingSomething"/>
+        <Class IRI="#SpecificAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoordinateSystem"/>
+        <Class IRI="#FrameOfReference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Copulating"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoulaNut"/>
+        <Class IRI="#Nut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrackedShell"/>
+        <Class IRI="#ShellState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cracking"/>
+        <Class IRI="#Breaking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrackingOpen"/>
+        <Class IRI="#OpeningSomething"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrackingOpenANut"/>
+        <Class IRI="#PreparingFoodOrDrink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CreationOrDestructionEvent"/>
+        <Class IRI="#Event-Localized"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crossing"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crouching"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crumbling"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crumpling"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crunching"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crushing"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrushingPattern"/>
+        <Class IRI="#WearPattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crustacean"/>
+        <Class IRI="#Seafood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crying"/>
+        <Class IRI="#MakingSound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cuisine"/>
+        <Class IRI="#EdibleStuff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cutting"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cylinder"/>
+        <Class IRI="#SpatialThingTypeByShape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DOI"/>
+        <Class IRI="#InformationBearingThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DailyPersonalCleaning"/>
+        <Class IRI="#CleaningSelf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dangling"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dashing"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Date"/>
+        <Class IRI="#ContinuousTimeInverval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dendropithecidae"/>
+        <Class IRI="#HominidFamily"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Denisovan"/>
+        <Class IRI="#Homo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Departing"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Descending"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Detaching"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetariumNut"/>
+        <Class IRI="#Nut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeviceState"/>
+        <Class IRI="#ObjectState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diecké"/>
+        <Class IRI="#Guinea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Digit-AnatomicalPart"/>
+        <Class IRI="#Appendage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diorite"/>
+        <Class IRI="#Stone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dipping"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DirectMouthing"/>
+        <Class IRI="#MovingBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Discarding"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disintegrating"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dislocating"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dislodging"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Displacing"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Displaying"/>
+        <Class IRI="#MovingBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Distance"/>
+        <Class IRI="#SpatialQuantity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Distance-Absolute"/>
+        <Class IRI="#Distance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dividing"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doing"/>
+        <Class IRI="#MetaEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dragging"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drawing"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drill"/>
+        <Class IRI="#Seafood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drink"/>
+        <Class IRI="#FoodOrDrink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drinking"/>
+        <Class IRI="#Consuming"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drinking"/>
+        <Class IRI="#ConsumingFoodOrDrink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DrinkingWater"/>
+        <Class IRI="#Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dropping"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DrySeason"/>
+        <Class IRI="#TropicalSeason"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EarlyAfternoon"/>
+        <Class IRI="#QualitativeTimeOfDay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EarlyMorning"/>
+        <Class IRI="#QualitativeTimeOfDay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EastAfrica"/>
+        <Class IRI="#Africa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EasyToCrack"/>
+        <Class IRI="#SubjectiveShellHardness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eating"/>
+        <Class IRI="#Consuming"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eating"/>
+        <Class IRI="#ConsumingFoodOrDrink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EdgeHammering"/>
+        <Class IRI="#Hammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EdibleStuff"/>
+        <Class IRI="#EnduringThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EffectOnSomethingElse"/>
+        <Class IRI="#PurposefulAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Egg"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eggshell"/>
+        <Class IRI="#NaturalShell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EightYearOld"/>
+        <Class IRI="#QuantitativeAge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ejecting"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ekembo"/>
+        <Class IRI="#HominidGenus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elderly"/>
+        <Class IRI="#QualitativeAge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Embracing"/>
+        <Class IRI="#MovingBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emerging"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emitting"/>
+        <Class IRI="#MakingSound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ending"/>
+        <Class IRI="#MetaEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnduringThing"/>
+        <Class IRI="#SpatialThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Erosion"/>
+        <Class IRI="#WearPattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Escaping"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evening"/>
+        <Class IRI="#QualitativeTimeOfDay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event-Localized"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Excreting"/>
+        <Class IRI="#BodilyFunctions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exiting"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExposingBodyPart"/>
+        <Class IRI="#MovingBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExtendingBodyPart"/>
+        <Class IRI="#MovingBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Extracting"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eye"/>
+        <Class IRI="#Face"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Face"/>
+        <Class IRI="#AnimalBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FaceHammering"/>
+        <Class IRI="#Hammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Facility"/>
+        <Class IRI="#OswaltTaxonomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Facility-Tended"/>
+        <Class IRI="#Facility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Facility-Untended"/>
+        <Class IRI="#Facility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Facing"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Failing"/>
+        <Class IRI="#MetaEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fall"/>
+        <Class IRI="#TemperateOrPolarSeason"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feeding"/>
+        <Class IRI="#MovingBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Female"/>
+        <Class IRI="#Sex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Filling"/>
+        <Class IRI="#FluidFlow"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Finding"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FineMaterialCarateristics"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Finger"/>
+        <Class IRI="#Digit-AnatomicalPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Finishing"/>
+        <Class IRI="#MetaEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fishing"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FiveYearOld"/>
+        <Class IRI="#QuantitativeAge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FixedObstacle"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FixedStructure"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fixing"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flailing"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flanging"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flattening"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flipping"/>
+        <Class IRI="#Striking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FluidFlow"/>
+        <Class IRI="#TranslatingAnObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FluidTangibleThing"/>
+        <Class IRI="#EnduringThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Folding"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FoliatedMicaceousLayers"/>
+        <Class IRI="#Texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Following"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food"/>
+        <Class IRI="#FoodOrDrink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FoodOrDrink"/>
+        <Class IRI="#FoodOrDrinkOrIngredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FoodOrDrinkOrIngredient"/>
+        <Class IRI="#EdibleStuff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FoodUtensil"/>
+        <Class IRI="#HandTool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FoodVessel"/>
+        <Class IRI="#Basin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foot"/>
+        <Class IRI="#HolderGripper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foraging"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FourYearOld"/>
+        <Class IRI="#QuantitativeAge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fracturing"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrameOfReference"/>
+        <Class IRI="#MathematicalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fraying"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreezingRain"/>
+        <Class IRI="#Rainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Friday"/>
+        <Class IRI="#Weekday"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruit"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function"/>
+        <Class IRI="#ObjectType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GaseousTangibleThing"/>
+        <Class IRI="#FluidTangibleThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gathering"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeographicalLocation"/>
+        <Class IRI="#LocationType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Going"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gorilla"/>
+        <Class IRI="#OrganicPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Granite"/>
+        <Class IRI="#Stone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Granular"/>
+        <Class IRI="#FluidTangibleThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grasping"/>
+        <Class IRI="#MovingBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GreenColour"/>
+        <Class IRI="#ColouredThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grooming"/>
+        <Class IRI="#MovingBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GroomingOther"/>
+        <Class IRI="#Grooming"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GroomingSelf"/>
+        <Class IRI="#Grooming"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guinea"/>
+        <Class IRI="#WestAfrica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#H.Heidelbergensis"/>
+        <Class IRI="#Homo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Haily"/>
+        <Class IRI="#WeatherCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hammer"/>
+        <Class IRI="#HandTool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hammering"/>
+        <Class IRI="#LoweringAnObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hand"/>
+        <Class IRI="#HolderGripper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HandConfiguration"/>
+        <Class IRI="#HoldingWithHand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HandTool"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HandfulOfLeaves"/>
+        <Class IRI="#Leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hanging"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HardToCrack"/>
+        <Class IRI="#SubjectiveShellHardness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harvesting"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Height"/>
+        <Class IRI="#Distance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HeightAboveGround"/>
+        <Class IRI="#Distance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HingedJoint"/>
+        <Class IRI="#Joint-Physical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HistoricalOrPrehistoricalInterval"/>
+        <Class IRI="#ContinuousTimeInverval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hitting"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HittingForcefully"/>
+        <Class IRI="#Hitting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HittingRepeatedly"/>
+        <Class IRI="#Hitting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HolderGripper"/>
+        <Class IRI="#AnimalBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoldingAnObject"/>
+        <Class IRI="#Configuration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoldingFood"/>
+        <Class IRI="#NonToolHandUse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoldingSubstrate"/>
+        <Class IRI="#NonToolHandUse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoldingWithHand"/>
+        <Class IRI="#HoldingAnObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hollowing"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hominid"/>
+        <Class IRI="#OrganicPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HominidFamily"/>
+        <Class IRI="#Hominid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HominidGenus"/>
+        <Class IRI="#Hominid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HominidSpecies"/>
+        <Class IRI="#Hominid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hominidae"/>
+        <Class IRI="#HominidFamily"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hominini"/>
+        <Class IRI="#Homo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hominioidea"/>
+        <Class IRI="#HominidFamily"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Homo"/>
+        <Class IRI="#HominidGenus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HomoAntecessor"/>
+        <Class IRI="#Homo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HomoErectus"/>
+        <Class IRI="#Homo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HomoErgaster"/>
+        <Class IRI="#Homo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HomoHabilis"/>
+        <Class IRI="#Homo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HomoNeanderthalensis"/>
+        <Class IRI="#Neanderthal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HomoSapiens"/>
+        <Class IRI="#Homo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hooting"/>
+        <Class IRI="#MakingSound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanBone"/>
+        <Class IRI="#Bone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanEdibleFruit"/>
+        <Class IRI="#Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanScaleObject"/>
+        <Class IRI="#EnduringThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hurricane"/>
+        <Class IRI="#NaturalDisaster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hurrying"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IceStorm"/>
+        <Class IRI="#NaturalDisaster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Impact"/>
+        <Class IRI="#WearPattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Incorporation-Physical"/>
+        <Class IRI="#SpecificAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndexFinger"/>
+        <Class IRI="#Finger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infant"/>
+        <Class IRI="#QualitativeAge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inferred"/>
+        <Class IRI="#TemporalThings-Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationBearingObject"/>
+        <Class IRI="#InformationBearingThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ingesting"/>
+        <Class IRI="#MovingBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Instrument"/>
+        <Class IRI="#OswaltTaxonomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntactShell"/>
+        <Class IRI="#ShellState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntermediateGrasping"/>
+        <Class IRI="#Grasping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IvoryCoast"/>
+        <Class IRI="#WestAfrica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IvoryCoastChimpanzee"/>
+        <Class IRI="#Chimpanzee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Japan"/>
+        <Class IRI="#Asia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JapaneseMacaque"/>
+        <Class IRI="#Macaque"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Joint-Physical"/>
+        <Class IRI="#Connection-Physical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Juice"/>
+        <Class IRI="#Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jumping"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Juvenile"/>
+        <Class IRI="#QualitativeAge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kamoyapithecus"/>
+        <Class IRI="#HominidGenus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kernelshell"/>
+        <Class IRI="#NaturalShell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kicking"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LaemSonNationalPark"/>
+        <Class IRI="#Thailand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Landing"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LateAfternoon"/>
+        <Class IRI="#QualitativeTimeOfDay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LateMorning"/>
+        <Class IRI="#QualitativeTimeOfDay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lava"/>
+        <Class IRI="#Stone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laying"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leaf"/>
+        <Class IRI="#PlantMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeafMidrib"/>
+        <Class IRI="#Leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeafyTwig"/>
+        <Class IRI="#Twig"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leaning"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeaningForward"/>
+        <Class IRI="#Leaning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leaping"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leaving"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeftArm"/>
+        <Class IRI="#Arm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeftFoot"/>
+        <Class IRI="#Foot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeftHand"/>
+        <Class IRI="#Hand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeftHandTrajectory"/>
+        <Class IRI="#ArmTrajectory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeftLeg"/>
+        <Class IRI="#Leg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leg"/>
+        <Class IRI="#Limb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lifting-Full"/>
+        <Class IRI="#LiftingAnObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lifting-Partial"/>
+        <Class IRI="#LiftingAnObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LiftingAnObject"/>
+        <Class IRI="#TranslatingAnObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Limb"/>
+        <Class IRI="#AnimalBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LineatedMicaceousLayers"/>
+        <Class IRI="#Texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LiquidTangibleThing"/>
+        <Class IRI="#FluidTangibleThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LittleFinger"/>
+        <Class IRI="#Finger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocationFunction"/>
+        <Class IRI="#BehaviourObservationPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocationNaturalType"/>
+        <Class IRI="#BehaviourObservationPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocationType"/>
+        <Class IRI="#BehaviourObservationPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LookingForAThingOrTypeOfThing"/>
+        <Class IRI="#Perceiving-Voluntary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LookingForAnIBO"/>
+        <Class IRI="#LookingForSomething"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LookingForSomething"/>
+        <Class IRI="#LookingForAThingOrTypeOfThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LookingForSomething-Definite"/>
+        <Class IRI="#LookingForSomething"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LookingForSomething-Indefinite"/>
+        <Class IRI="#LookingForSomething"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LookingForSomething-IndefiniteMultiple"/>
+        <Class IRI="#LookingForSomething-Indefinite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LookingForSomething-IndefiniteSingle"/>
+        <Class IRI="#LookingForSomething-Indefinite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoweringAnObject"/>
+        <Class IRI="#TranslatingAnObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lying"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MacacaFuscataFuscata"/>
+        <Class IRI="#JapaneseMacaque"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MacacaFuscataYakui"/>
+        <Class IRI="#JapaneseMacaque"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Macaque"/>
+        <Class IRI="#OrganicPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MakingSound"/>
+        <Class IRI="#PurposefulAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MakingU-Turn"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Male"/>
+        <Class IRI="#Sex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mangrove"/>
+        <Class IRI="#Shore"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManihotNut"/>
+        <Class IRI="#Nut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManipulationPlace"/>
+        <Class IRI="#FixedStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarineGastropod"/>
+        <Class IRI="#Seafood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarinePark"/>
+        <Class IRI="#LocationType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mass"/>
+        <Class IRI="#MassOrSpatialQuantity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MassOrSpatialQuantity"/>
+        <Class IRI="#MeasurableQuantity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Material"/>
+        <Class IRI="#ObjectType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialHandling"/>
+        <Class IRI="#SpecificAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MathematicalObject"/>
+        <Class IRI="#MathematicalThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MathematicalOrdering"/>
+        <Class IRI="#MathematicalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MathematicalThing"/>
+        <Class IRI="#MathematicalOrComputationalThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Matrix"/>
+        <Class IRI="#MathematicalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mature"/>
+        <Class IRI="#QualitativeAge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurableQuantity"/>
+        <Class IRI="#MathematicalThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meat"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetaEvent"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metal"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microfracture"/>
+        <Class IRI="#WearPattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microlithic"/>
+        <Class IRI="#StoneIndustry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiddleAgedAdult"/>
+        <Class IRI="#Adult"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiddleFinger"/>
+        <Class IRI="#Finger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Midnight"/>
+        <Class IRI="#QualitativeTimeOfDay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milk"/>
+        <Class IRI="#Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing"/>
+        <Class IRI="#MetaEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MixingSomething"/>
+        <Class IRI="#Incorporation-Physical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModernSeason"/>
+        <Class IRI="#Season"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monday"/>
+        <Class IRI="#Weekday"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonkeyChow"/>
+        <Class IRI="#Cuisine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Morning"/>
+        <Class IRI="#QualitativeTimeOfDay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mousterian"/>
+        <Class IRI="#StoneIndustry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moving"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MovingAnObject"/>
+        <Class IRI="#SpecificAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MovingAway"/>
+        <Class IRI="#Moving"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MovingBodyPart"/>
+        <Class IRI="#SpecificAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MovingWholeBody"/>
+        <Class IRI="#SpecificAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Muzzle"/>
+        <Class IRI="#Face"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Myanmar"/>
+        <Class IRI="#Asia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaiborSoitQuartzite"/>
+        <Class IRI="#Quartzite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nakalipithecus"/>
+        <Class IRI="#Homo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NationalPark"/>
+        <Class IRI="#LocationType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalDisaster"/>
+        <Class IRI="#NaturalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalEvent"/>
+        <Class IRI="#Event-Localized"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalShell"/>
+        <Class IRI="#Container"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Naturefact"/>
+        <Class IRI="#OswaltTaxonomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neanderthal"/>
+        <Class IRI="#Homo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeriteSnail"/>
+        <Class IRI="#Seafood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Night"/>
+        <Class IRI="#QualitativeTimeOfDay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NoAgeAvailable"/>
+        <Class IRI="#Age"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NoSexAvailable"/>
+        <Class IRI="#Sex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonHumanBone"/>
+        <Class IRI="#Bone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonSessile"/>
+        <Class IRI="#SeafoodType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonSmoothStrikeRecoiling"/>
+        <Class IRI="#Recoiling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonToolHandUse"/>
+        <Class IRI="#MovingBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Noon"/>
+        <Class IRI="#QualitativeTimeOfDay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nose"/>
+        <Class IRI="#Face"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nursing"/>
+        <Class IRI="#BodilyFunctions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nut"/>
+        <Class IRI="#Meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nutshell"/>
+        <Class IRI="#NaturalShell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObjectManipulation"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObjectState"/>
+        <Class IRI="#ObjectTypeByIntrinsicState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObjectTypeByIntrinsicState"/>
+        <Class IRI="#ObjectType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observed-Direct"/>
+        <Class IRI="#TemporalThings-Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OilPalmNut"/>
+        <Class IRI="#Nut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oldowan"/>
+        <Class IRI="#StoneIndustry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OlduvaiGorge"/>
+        <Class IRI="#Tanzania"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OneHandConfiguration"/>
+        <Class IRI="#HandConfiguration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OpenShell"/>
+        <Class IRI="#ShellState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OpeningAContainerArtifact"/>
+        <Class IRI="#OpeningSomething"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OpeningSomething"/>
+        <Class IRI="#SpecificAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orang-Utan"/>
+        <Class IRI="#OrganicPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrangeColour"/>
+        <Class IRI="#ColouredThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oreopithecus"/>
+        <Class IRI="#Homo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganicPerson"/>
+        <Class IRI="#Agent-Generic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orientation"/>
+        <Class IRI="#SpatialQuantity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orientation2D"/>
+        <Class IRI="#Orientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orientation3D"/>
+        <Class IRI="#Orientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orrorin"/>
+        <Class IRI="#Homo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OswaltTaxonomy"/>
+        <Class IRI="#Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ouranopithecus"/>
+        <Class IRI="#Homo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overcast"/>
+        <Class IRI="#WeatherCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PIassavaNut"/>
+        <Class IRI="#Nut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PalmarPinching"/>
+        <Class IRI="#PrecisionGrasping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PandaNut"/>
+        <Class IRI="#Nut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paranthropus"/>
+        <Class IRI="#HominidGenus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PartialOrdering"/>
+        <Class IRI="#MathematicalOrdering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PartialOrdering-Strict"/>
+        <Class IRI="#MathematicalOrdering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pausing"/>
+        <Class IRI="#MetaEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perceiving"/>
+        <Class IRI="#PurposefulAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perceiving-Unvoluntary"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perceiving-Voluntary"/>
+        <Class IRI="#Perceiving"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PerceptionState"/>
+        <Class IRI="#TaskState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalDevice"/>
+        <Class IRI="#HumanScaleObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PickingNose"/>
+        <Class IRI="#DailyPersonalCleaning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PickingUpAnObject"/>
+        <Class IRI="#TranslatingAnObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PickingUpLeaves"/>
+        <Class IRI="#PickingUpAnObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PickingUpTool"/>
+        <Class IRI="#PickingUpAnObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Place"/>
+        <Class IRI="#SpatialThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlantMaterial"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plastic"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Playing"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Point"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Point2D"/>
+        <Class IRI="#Point"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Point3D"/>
+        <Class IRI="#Point"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PointHammering"/>
+        <Class IRI="#Hammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostureConfiguration"/>
+        <Class IRI="#Configuration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pouring"/>
+        <Class IRI="#FluidFlow"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PouringSomethingInto"/>
+        <Class IRI="#Pouring"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PouringSomethingOnto"/>
+        <Class IRI="#Pouring"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PowerGrasping"/>
+        <Class IRI="#Grasping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreModeOne"/>
+        <Class IRI="#StoneIndustry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrecisionGrasping"/>
+        <Class IRI="#Grasping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Preparing"/>
+        <Class IRI="#ComplexAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreparingFoodOrDrink"/>
+        <Class IRI="#Preparing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrismaticJoint"/>
+        <Class IRI="#Joint-Physical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proconsul"/>
+        <Class IRI="#HominidGenus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proconsulidae"/>
+        <Class IRI="#HominidFamily"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcurementPlace"/>
+        <Class IRI="#LocationFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prowling"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Publication"/>
+        <Class IRI="#InformationBearingThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pulling"/>
+        <Class IRI="#Transporting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PurposefulAction"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pushing"/>
+        <Class IRI="#Transporting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PuttingDownAnObject"/>
+        <Class IRI="#LoweringAnObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PuttingSomethingIntoSomething"/>
+        <Class IRI="#PuttingDownAnObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PuttingSomethingOntoSomething"/>
+        <Class IRI="#PuttingDownAnObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualitativeAge"/>
+        <Class IRI="#Age"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualitativeTimeOfDay"/>
+        <Class IRI="#ContinuousTimeInverval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuantitativeAge"/>
+        <Class IRI="#Age"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quartz"/>
+        <Class IRI="#Stone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quartzite"/>
+        <Class IRI="#Stone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rainy"/>
+        <Class IRI="#WeatherCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Raising"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rangwapithecus"/>
+        <Class IRI="#HominidGenus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Re-entering"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recoiling"/>
+        <Class IRI="#TranslatingAnObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reconstituted"/>
+        <Class IRI="#TemporalThings-Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedColobusMonkey"/>
+        <Class IRI="#OrganicPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedColour"/>
+        <Class IRI="#ColouredThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedHowlerMonkey"/>
+        <Class IRI="#OrganicPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RegulatingFluidFlow"/>
+        <Class IRI="#ControllingSomething"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Removing"/>
+        <Class IRI="#SpecificAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RemovingAntFromAnthill"/>
+        <Class IRI="#RemovingMaterialFromAContainer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RemovingBoneMarrowFromBone"/>
+        <Class IRI="#RemovingMaterialFromAContainer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RemovingMaterialFromAContainer"/>
+        <Class IRI="#Removing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RemovingNutFromNutshell"/>
+        <Class IRI="#RemovingMaterialFromAContainer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RemovingShellfishFromShell"/>
+        <Class IRI="#RemovingMaterialFromAContainer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Repeating"/>
+        <Class IRI="#MetaEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resting"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RightArm"/>
+        <Class IRI="#Arm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RightFoot"/>
+        <Class IRI="#Foot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RightHand"/>
+        <Class IRI="#Hand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RightHandTrajectory"/>
+        <Class IRI="#ArmTrajectory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RightLeg"/>
+        <Class IRI="#Leg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RingFinger"/>
+        <Class IRI="#Finger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RioGrandeDoNorte"/>
+        <Class IRI="#Brazil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rising"/>
+        <Class IRI="#PostureConfiguration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Robot"/>
+        <Class IRI="#Agent-Generic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RockOyster"/>
+        <Class IRI="#Seafood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RockyShore"/>
+        <Class IRI="#Shore"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RotatingAnObject"/>
+        <Class IRI="#MovingAnObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RotationMatrix"/>
+        <Class IRI="#Matrix"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RotationMatrix2D"/>
+        <Class IRI="#RotationMatrix"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RotationMatrix3D"/>
+        <Class IRI="#RotationMatrix"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RottenShell"/>
+        <Class IRI="#ShellState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Running"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RunningAway"/>
+        <Class IRI="#Running"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sahelanthropus"/>
+        <Class IRI="#Homo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SandStorm"/>
+        <Class IRI="#NaturalDisaster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sandstone"/>
+        <Class IRI="#Stone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SandyBeach"/>
+        <Class IRI="#Shore"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SapajusLibidinosus"/>
+        <Class IRI="#WildBeardedCapuchin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saturday"/>
+        <Class IRI="#Weekday"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scampering"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Screaming"/>
+        <Class IRI="#MakingSound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scurrying"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeaAlmond"/>
+        <Class IRI="#ShorePlantSeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seafood"/>
+        <Class IRI="#Meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeafoodType"/>
+        <Class IRI="#Seafood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seashell"/>
+        <Class IRI="#NaturalShell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Season"/>
+        <Class IRI="#ContinuousTimeInverval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seating"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sessile"/>
+        <Class IRI="#SeafoodType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SevenYearOld"/>
+        <Class IRI="#QuantitativeAge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sex"/>
+        <Class IRI="#Agent-Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShellState"/>
+        <Class IRI="#Container"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shore"/>
+        <Class IRI="#LocationNaturalType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShoreCoastalFood"/>
+        <Class IRI="#Meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShorePlantSeed"/>
+        <Class IRI="#ShoreCoastalFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Simple"/>
+        <Class IRI="#OswaltTaxonomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sitting"/>
+        <Class IRI="#PostureConfiguration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SixteenYearOld"/>
+        <Class IRI="#QuantitativeAge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Slipping"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmoothStrikeRecoiling"/>
+        <Class IRI="#Recoiling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SnowStorm"/>
+        <Class IRI="#Stormy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Snowy"/>
+        <Class IRI="#WeatherCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SouthAmerica"/>
+        <Class IRI="#America"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpatialQuantity"/>
+        <Class IRI="#MassOrSpatialQuantity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpatialThingTypeByShape"/>
+        <Class IRI="#ObjectType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecificAction"/>
+        <Class IRI="#PurposefulAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sphere"/>
+        <Class IRI="#SpatialThingTypeByShape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpiderMonkey"/>
+        <Class IRI="#OrganicPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spitting"/>
+        <Class IRI="#BodilyFunctions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spraying"/>
+        <Class IRI="#FluidFlow"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpreadingSomethingOnSurface"/>
+        <Class IRI="#ApplyingSomethingToSurface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spring"/>
+        <Class IRI="#TemperateOrPolarSeason"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squatting"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SquattingDown"/>
+        <Class IRI="#Squatting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squealing"/>
+        <Class IRI="#MakingSound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stairway"/>
+        <Class IRI="#FixedStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standing"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standing"/>
+        <Class IRI="#PostureConfiguration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandingBipedal"/>
+        <Class IRI="#Standing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandingTripedal"/>
+        <Class IRI="#Standing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandingUnipedal"/>
+        <Class IRI="#Standing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandingUp"/>
+        <Class IRI="#Standing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Starting"/>
+        <Class IRI="#MetaEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StaticSituation"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StaticTool"/>
+        <Class IRI="#StaticSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StepPattern"/>
+        <Class IRI="#WearPattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stepping"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stick"/>
+        <Class IRI="#PlantMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stone"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StoneAnvil"/>
+        <Class IRI="#Anvil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StoneHammer"/>
+        <Class IRI="#Hammer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StoneIndustry"/>
+        <Class IRI="#HistoricalOrPrehistoricalInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stormy"/>
+        <Class IRI="#WeatherCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Striking"/>
+        <Class IRI="#LoweringAnObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Striking-Overhand"/>
+        <Class IRI="#Striking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Striking-Underhand"/>
+        <Class IRI="#Striking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stripping"/>
+        <Class IRI="#Removing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StrippingLeaves"/>
+        <Class IRI="#Stripping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubAdult"/>
+        <Class IRI="#QualitativeAge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubBout"/>
+        <Class IRI="#Bout"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubjectiveShellHardness"/>
+        <Class IRI="#Container"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subsistant"/>
+        <Class IRI="#OswaltTaxonomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Summer"/>
+        <Class IRI="#TemperateOrPolarSeason"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sunday"/>
+        <Class IRI="#Weekday"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sunny"/>
+        <Class IRI="#WeatherCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SuperficialAbrasion"/>
+        <Class IRI="#Abrasion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupportingBody"/>
+        <Class IRI="#NonToolHandUse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupportingFood"/>
+        <Class IRI="#NonToolHandUse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sweating"/>
+        <Class IRI="#BodilyFunctions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TR2"/>
+        <Class IRI="#Robot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TUM_Rosie"/>
+        <Class IRI="#Robot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tail"/>
+        <Class IRI="#HolderGripper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TailTrajectory"/>
+        <Class IRI="#Trajectory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TakingBath"/>
+        <Class IRI="#DailyPersonalCleaning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tanzania"/>
+        <Class IRI="#EastAfrica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaskState"/>
+        <Class IRI="#Configuration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technounit"/>
+        <Class IRI="#OswaltTaxonomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemperateOrPolarSeason"/>
+        <Class IRI="#ModernSeason"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemporalExtendedThing"/>
+        <Class IRI="#TemporalThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemporalThings-Features"/>
+        <Class IRI="#TemporalThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerminaliaCatappa"/>
+        <Class IRI="#ShorePlantSeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Text"/>
+        <Class IRI="#InformationBearingThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Texture"/>
+        <Class IRI="#FineMaterialCarateristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thailand"/>
+        <Class IRI="#Asia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThaosIsPark"/>
+        <Class IRI="#Thailand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThreeYearOld"/>
+        <Class IRI="#QuantitativeAge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thumb"/>
+        <Class IRI="#Finger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thursday"/>
+        <Class IRI="#Weekday"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeInterval"/>
+        <Class IRI="#TemporalThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tool"/>
+        <Class IRI="#PhysicalDevice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ToolGatheringLocation"/>
+        <Class IRI="#LocationFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ToolUseLocation"/>
+        <Class IRI="#LocationFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ToothLippedSnail"/>
+        <Class IRI="#Seafood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tornado"/>
+        <Class IRI="#NaturalDisaster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trajectory"/>
+        <Class IRI="#SpatialThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Translating-ChangingLocation"/>
+        <Class IRI="#TranslatingAnObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TranslatingAnObject"/>
+        <Class IRI="#MovingAnObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transporting"/>
+        <Class IRI="#TranslatingAnObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TreeHole"/>
+        <Class IRI="#Cavity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TropicalSeason"/>
+        <Class IRI="#ModernSeason"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trying"/>
+        <Class IRI="#MetaEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TucumNut"/>
+        <Class IRI="#Nut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tuesday"/>
+        <Class IRI="#Weekday"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Turkanapithecus"/>
+        <Class IRI="#HominidGenus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Turning"/>
+        <Class IRI="#TranslatingAnObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TurningOffWater"/>
+        <Class IRI="#RegulatingFluidFlow"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TurningOnWater"/>
+        <Class IRI="#RegulatingFluidFlow"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Twig"/>
+        <Class IRI="#PlantMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Twisting"/>
+        <Class IRI="#ObjectManipulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Typhoon"/>
+        <Class IRI="#NaturalDisaster"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnattachedEdgeHammering"/>
+        <Class IRI="#EdgeHammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnderTwoYearOld"/>
+        <Class IRI="#QuantitativeAge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UndeterminateAge"/>
+        <Class IRI="#Age"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UndeterminateSex"/>
+        <Class IRI="#Sex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnimanualClapFaceHammering"/>
+        <Class IRI="#FaceHammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnimanualEdgeHammering"/>
+        <Class IRI="#EdgeHammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnimanualFaceHammering"/>
+        <Class IRI="#FaceHammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnimanualFulcrumFaceHammering"/>
+        <Class IRI="#FaceHammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnimanualJabPointHammering"/>
+        <Class IRI="#PointHammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnimanualPointHammering"/>
+        <Class IRI="#PointHammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnimanualShellFaceHammering"/>
+        <Class IRI="#FaceHammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnimanualShellPointHammering"/>
+        <Class IRI="#PointHammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnimanualSupportedPointHammering"/>
+        <Class IRI="#PointHammering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Urinating"/>
+        <Class IRI="#BodilyFunctions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uttering"/>
+        <Class IRI="#MakingSound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vocalizing"/>
+        <Class IRI="#MakingSound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Volume"/>
+        <Class IRI="#SpatialQuantity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vomiting"/>
+        <Class IRI="#BodilyFunctions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waiting"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walking"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WalkingDown"/>
+        <Class IRI="#Walking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Water"/>
+        <Class IRI="#ColorlessThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weapon"/>
+        <Class IRI="#OswaltTaxonomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WearPattern"/>
+        <Class IRI="#FineMaterialCarateristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeatherCondition"/>
+        <Class IRI="#NaturalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wednesday"/>
+        <Class IRI="#Weekday"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weekday"/>
+        <Class IRI="#CalendarDay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WestAfrica"/>
+        <Class IRI="#Africa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WetSeason"/>
+        <Class IRI="#TropicalSeason"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Whimpering"/>
+        <Class IRI="#MakingSound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Whisling"/>
+        <Class IRI="#MakingSound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WhiteColour"/>
+        <Class IRI="#ColouredThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Width"/>
+        <Class IRI="#Distance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WildBeardedCapuchin"/>
+        <Class IRI="#Capuchin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Winter"/>
+        <Class IRI="#TemperateOrPolarSeason"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WipingFeces"/>
+        <Class IRI="#WipingSelf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WipingMenstrualBlood"/>
+        <Class IRI="#WipingSelf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WipingMud"/>
+        <Class IRI="#WipingSelf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WipingSelf"/>
+        <Class IRI="#DailyPersonalCleaning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WipingStickyBanana"/>
+        <Class IRI="#WipingSelf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WipingUrine"/>
+        <Class IRI="#WipingSelf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wood"/>
+        <Class IRI="#PlantMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WoodAnvil"/>
+        <Class IRI="#Anvil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WoodHammer"/>
+        <Class IRI="#Hammer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrestling"/>
+        <Class IRI="#MovingWholeBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yam"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YamPulp"/>
+        <Class IRI="#Yam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YellowColour"/>
+        <Class IRI="#ColouredThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Young"/>
+        <Class IRI="#QualitativeAge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YoungAdult"/>
+        <Class IRI="#Adult"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Youngster"/>
+        <Class IRI="#QualitativeAge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zoo"/>
+        <Class IRI="#LocationType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aethiopicus"/>
+        <Class IRI="#HominidSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anamensis"/>
+        <Class IRI="#HominidSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#boisei"/>
+        <Class IRI="#HominidSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#erectus"/>
+        <Class IRI="#HominidSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gordoni"/>
+        <Class IRI="#HominidSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#habilis"/>
+        <Class IRI="#HominidSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hamiltoni"/>
+        <Class IRI="#HominidSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heidelbergensis"/>
+        <Class IRI="#HominidSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kalakolensis"/>
+        <Class IRI="#HominidSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#major"/>
+        <Class IRI="#HominidSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nyanzae"/>
+        <Class IRI="#HominidSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#platyops"/>
+        <Class IRI="#HominidSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rudolfensis"/>
+        <Class IRI="#HominidSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sapiens"/>
+        <Class IRI="#HominidSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#turkanensis"/>
+        <Class IRI="#HominidSpecies"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Abandoning"/>
+        <Class IRI="#Accompanying"/>
+        <Class IRI="#Accumulating"/>
+        <Class IRI="#Acquiring"/>
+        <Class IRI="#Adding"/>
+        <Class IRI="#Adjusting"/>
+        <Class IRI="#Aiming"/>
+        <Class IRI="#Alternating"/>
+        <Class IRI="#AntFishing"/>
+        <Class IRI="#Anticipating"/>
+        <Class IRI="#Arousing"/>
+        <Class IRI="#Attacking"/>
+        <Class IRI="#Attempting"/>
+        <Class IRI="#Avoiding"/>
+        <Class IRI="#Banging"/>
+        <Class IRI="#Bothering"/>
+        <Class IRI="#Choosing"/>
+        <Class IRI="#Cleaning"/>
+        <Class IRI="#Collecting"/>
+        <Class IRI="#Combining"/>
+        <Class IRI="#Connecting"/>
+        <Class IRI="#Copulating"/>
+        <Class IRI="#Finding"/>
+        <Class IRI="#Fishing"/>
+        <Class IRI="#Fixing"/>
+        <Class IRI="#Flailing"/>
+        <Class IRI="#Flanging"/>
+        <Class IRI="#Foraging"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Action"/>
+        <Class IRI="#Event-Localized"/>
+        <Class IRI="#MetaEvent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ActionNegation"/>
+        <Class IRI="#Ceasing"/>
+        <Class IRI="#Changing"/>
+        <Class IRI="#Consisting"/>
+        <Class IRI="#Continuing"/>
+        <Class IRI="#Doing"/>
+        <Class IRI="#Ending"/>
+        <Class IRI="#Failing"/>
+        <Class IRI="#Finishing"/>
+        <Class IRI="#Pausing"/>
+        <Class IRI="#Repeating"/>
+        <Class IRI="#Starting"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Adhering"/>
+        <Class IRI="#Arranging"/>
+        <Class IRI="#Attaching"/>
+        <Class IRI="#Bending"/>
+        <Class IRI="#BendingDown"/>
+        <Class IRI="#Brandishing"/>
+        <Class IRI="#Breaking"/>
+        <Class IRI="#Carrying"/>
+        <Class IRI="#Catching"/>
+        <Class IRI="#Crumbling"/>
+        <Class IRI="#Crumpling"/>
+        <Class IRI="#Crunching"/>
+        <Class IRI="#Crushing"/>
+        <Class IRI="#Cutting"/>
+        <Class IRI="#Detaching"/>
+        <Class IRI="#Dipping"/>
+        <Class IRI="#Discarding"/>
+        <Class IRI="#Disintegrating"/>
+        <Class IRI="#Dislocating"/>
+        <Class IRI="#Dislodging"/>
+        <Class IRI="#Displacing"/>
+        <Class IRI="#Dividing"/>
+        <Class IRI="#Dragging"/>
+        <Class IRI="#Drawing"/>
+        <Class IRI="#Dropping"/>
+        <Class IRI="#Ejecting"/>
+        <Class IRI="#Extracting"/>
+        <Class IRI="#Flattening"/>
+        <Class IRI="#Folding"/>
+        <Class IRI="#Fracturing"/>
+        <Class IRI="#Fraying"/>
+        <Class IRI="#Hitting"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Advancing"/>
+        <Class IRI="#Approaching"/>
+        <Class IRI="#Arriving"/>
+        <Class IRI="#Ascending"/>
+        <Class IRI="#AvoidingSomething"/>
+        <Class IRI="#Balancing"/>
+        <Class IRI="#Basking"/>
+        <Class IRI="#Charging"/>
+        <Class IRI="#Chasing"/>
+        <Class IRI="#Climbing"/>
+        <Class IRI="#ClimbingDown"/>
+        <Class IRI="#ClimbingUp"/>
+        <Class IRI="#Coming"/>
+        <Class IRI="#Crossing"/>
+        <Class IRI="#Crouching"/>
+        <Class IRI="#Dangling"/>
+        <Class IRI="#Dashing"/>
+        <Class IRI="#Departing"/>
+        <Class IRI="#Descending"/>
+        <Class IRI="#Emerging"/>
+        <Class IRI="#Escaping"/>
+        <Class IRI="#Exiting"/>
+        <Class IRI="#Facing"/>
+        <Class IRI="#Following"/>
+        <Class IRI="#Going"/>
+        <Class IRI="#Hanging"/>
+        <Class IRI="#Hurrying"/>
+        <Class IRI="#Jumping"/>
+        <Class IRI="#Kicking"/>
+        <Class IRI="#Landing"/>
+        <Class IRI="#Laying"/>
+        <Class IRI="#Leaning"/>
+        <Class IRI="#Leaping"/>
+        <Class IRI="#Leaving"/>
+        <Class IRI="#Lying"/>
+        <Class IRI="#MakingU-Turn"/>
+        <Class IRI="#Moving"/>
+        <Class IRI="#Prowling"/>
+        <Class IRI="#Raising"/>
+        <Class IRI="#Re-entering"/>
+        <Class IRI="#Resting"/>
+        <Class IRI="#Running"/>
+        <Class IRI="#Scampering"/>
+        <Class IRI="#Scurrying"/>
+        <Class IRI="#Seating"/>
+        <Class IRI="#Slipping"/>
+        <Class IRI="#Squatting"/>
+        <Class IRI="#Standing"/>
+        <Class IRI="#Stepping"/>
+        <Class IRI="#Walking"/>
+        <Class IRI="#Wrestling"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Barking"/>
+        <Class IRI="#Calling"/>
+        <Class IRI="#Contacting"/>
+        <Class IRI="#Crying"/>
+        <Class IRI="#Emitting"/>
+        <Class IRI="#Hooting"/>
+        <Class IRI="#Screaming"/>
+        <Class IRI="#Squealing"/>
+        <Class IRI="#Uttering"/>
+        <Class IRI="#Vocalizing"/>
+        <Class IRI="#Whimpering"/>
+        <Class IRI="#Whisling"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Barking"/>
+        <Class IRI="#Calling"/>
+        <Class IRI="#Contacting"/>
+        <Class IRI="#Crying"/>
+        <Class IRI="#Emitting"/>
+        <Class IRI="#Hooting"/>
+        <Class IRI="#Screaming"/>
+        <Class IRI="#Uttering"/>
+        <Class IRI="#Vocalizing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Biting"/>
+        <Class IRI="#Breathing"/>
+        <Class IRI="#Chewing"/>
+        <Class IRI="#Clenching"/>
+        <Class IRI="#Consuming"/>
+        <Class IRI="#DirectMouthing"/>
+        <Class IRI="#Displaying"/>
+        <Class IRI="#Embracing"/>
+        <Class IRI="#ExposingBodyPart"/>
+        <Class IRI="#ExtendingBodyPart"/>
+        <Class IRI="#Feeding"/>
+        <Class IRI="#Grooming"/>
+        <Class IRI="#NonToolHandUse"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BreakingOff"/>
+        <Class IRI="#BreakingOpen"/>
+        <Class IRI="#Cracking"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ComplexAction"/>
+        <Class IRI="#EffectOnSomethingElse"/>
+        <Class IRI="#MakingSound"/>
+        <Class IRI="#Perceiving"/>
+        <Class IRI="#SpecificAction"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ComplexAction"/>
+        <Class IRI="#MakingSound"/>
+        <Class IRI="#Perceiving"/>
+        <Class IRI="#SpecificAction"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Drinking"/>
+        <Class IRI="#Eating"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GroomingOther"/>
+        <Class IRI="#GroomingSelf"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HittingForcefully"/>
+        <Class IRI="#HittingRepeatedly"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#StandingBipedal"/>
+        <Class IRI="#StandingTripedal"/>
+        <Class IRI="#StandingUnipedal"/>
+        <Class IRI="#StandingUp"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#aboveOf"/>
+        <ObjectProperty IRI="#directionalRelations"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#actor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#after"/>
+        <ObjectProperty IRI="#temporallyRelated"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#afterI"/>
+        <ObjectProperty IRI="#intervalRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#agent"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ambiguousTemporalConjunction"/>
+        <ObjectProperty IRI="#temporalConjunction"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#articleDOI"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#beforeI"/>
+        <ObjectProperty IRI="#intervalRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#behind-Generally"/>
+        <ObjectProperty IRI="#directionalRelations"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#belowOf"/>
+        <ObjectProperty IRI="#directionalRelations"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#bodyPartsUsed"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#center"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#connectedTo"/>
+        <ObjectProperty IRI="#spatiallyRelated"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#connectedTo-Prismatically"/>
+        <ObjectProperty IRI="#connectedTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#connectedTo-Rigidly"/>
+        <ObjectProperty IRI="#connectedTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#connectedTo-Rotationally"/>
+        <ObjectProperty IRI="#connectedTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#connectedTo-Thermically"/>
+        <ObjectProperty IRI="#connectedTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#contains"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#containsCavity"/>
+        <ObjectProperty IRI="#physicalDecomposition"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#countryOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#createdBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#decomposesInto"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#describedInMap"/>
+        <ObjectProperty IRI="#describes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#describedInText"/>
+        <ObjectProperty IRI="#describes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#describes"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#describesBout"/>
+        <ObjectProperty IRI="#describes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#direction"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#directionalRelations"/>
+        <ObjectProperty IRI="#spatiallyRelated"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#doneBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#duringI"/>
+        <ObjectProperty IRI="#intervalRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#duringInvI"/>
+        <ObjectProperty IRI="#intervalRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#encloses"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#endTime"/>
+        <ObjectProperty IRI="#temporallyRelated"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#equalI"/>
+        <ObjectProperty IRI="#intervalRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#eventOccursAt"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#finishesI"/>
+        <ObjectProperty IRI="#intervalRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#finishesInvI"/>
+        <ObjectProperty IRI="#intervalRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#goal"/>
+        <ObjectProperty IRI="#taskToAchieve"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#gripType"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#handModality"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hardness"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAge"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEnclosure"/>
+        <ObjectProperty IRI="#physicalDecomposition"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSex"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hingedTo"/>
+        <ObjectProperty IRI="#connectedTo-Rotationally"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#in"/>
+        <ObjectProperty IRI="#topologicalRelations"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inCenterOf"/>
+        <ObjectProperty IRI="#topologicalRelations"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inFrontOf-Generally"/>
+        <ObjectProperty IRI="#directionalRelations"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inLocation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inReachOf"/>
+        <ObjectProperty IRI="#directionalRelations"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#initialPosture"/>
+        <ObjectProperty IRI="#posture"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#insideOf"/>
+        <ObjectProperty IRI="#topologicalRelations"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#intervalRelation"/>
+        <ObjectProperty IRI="#temporallyRelated"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#into"/>
+        <ObjectProperty IRI="#topologicalRelations"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#involved"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#involvedAction"/>
+        <ObjectProperty IRI="#involved"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#involvedAgent"/>
+        <ObjectProperty IRI="#involved"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#involvedTool"/>
+        <ObjectProperty IRI="#involved"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#longitudinalDirection"/>
+        <ObjectProperty IRI="#direction"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#material"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#meetsI"/>
+        <ObjectProperty IRI="#intervalRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#meetsInvI"/>
+        <ObjectProperty IRI="#intervalRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#near"/>
+        <ObjectProperty IRI="#topologicalRelations"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#nextAction"/>
+        <ObjectProperty IRI="#nextEvent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#nextDetectionOfObject"/>
+        <ObjectProperty IRI="#nextEvent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#nextEvent"/>
+        <ObjectProperty IRI="#postEvent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#normalDirection"/>
+        <ObjectProperty IRI="#direction"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#objectShape"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#on"/>
+        <ObjectProperty IRI="#topologicalRelations"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#outsideOf"/>
+        <ObjectProperty IRI="#topologicalRelations"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#overlaps"/>
+        <ObjectProperty IRI="#intervalRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#overlapsInvI"/>
+        <ObjectProperty IRI="#intervalRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#parallelTemporalConjunction"/>
+        <ObjectProperty IRI="#temporalConjunction"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#parts"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#perceivedThing"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#performedBy"/>
+        <ObjectProperty IRI="#doneBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#physicalDecomposition"/>
+        <ObjectProperty IRI="#parts"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#physicalParts"/>
+        <ObjectProperty IRI="#parts"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#postEvent"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#posture"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#postureDuringMovement"/>
+        <ObjectProperty IRI="#posture"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#preEvent"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#purpose"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#regionOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#relativeHandSizeOfObject"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#sequentialTemporalConjunction"/>
+        <ObjectProperty IRI="#temporalConjunction"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#spatiallyRelated"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#startTime"/>
+        <ObjectProperty IRI="#temporallyRelated"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#startsI"/>
+        <ObjectProperty IRI="#intervalRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#startsInvI"/>
+        <ObjectProperty IRI="#intervalRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#stateOfObject"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#stateTransition"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#target"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#taskEndState"/>
+        <ObjectProperty IRI="#taskRelations"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#taskRelations"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#taskStartState"/>
+        <ObjectProperty IRI="#taskRelations"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#taskToAchieve"/>
+        <ObjectProperty IRI="#taskRelations"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#temporalConjunction"/>
+        <ObjectProperty IRI="#temporallyRelated"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#temporallyRelated"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#temporallySubsumes"/>
+        <ObjectProperty IRI="#temporallyRelated"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#toTheLeftOf"/>
+        <ObjectProperty IRI="#toTheSideOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#toTheRightOf"/>
+        <ObjectProperty IRI="#toTheSideOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#toTheSideOf"/>
+        <ObjectProperty IRI="#directionalRelations"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#toolInvolved"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#toolMovement"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#toolUsed"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#topologicalRelations"/>
+        <ObjectProperty IRI="#directionalRelations"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#visibleFrom"/>
+        <ObjectProperty IRI="#directionalRelations"/>
+    </SubObjectPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#area"/>
+        <DataProperty IRI="#sizeParameterOfObject"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#depth"/>
+        <DataProperty IRI="#sizeParameterOfObject"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#diameter"/>
+        <DataProperty IRI="#sizeParameterOfObject"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#distance"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#duration"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#height"/>
+        <DataProperty IRI="#sizeParameterOfObject"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#length"/>
+        <DataProperty IRI="#sizeParameterOfObject"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#mass"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#massOfAgent"/>
+        <DataProperty IRI="#mass"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#massOfObject"/>
+        <DataProperty IRI="#mass"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#radius"/>
+        <DataProperty IRI="#sizeParameterOfObject"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#relativeHandSizeOfObject"/>
+        <DataProperty IRI="#sizeParameterOfObject"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#sizeParameterOfObject"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#temperature"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#volume"/>
+        <DataProperty IRI="#sizeParameterOfObject"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#width"/>
+        <DataProperty IRI="#sizeParameterOfObject"/>
+    </SubDataPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Artifact</IRI>
+        <Literal>End product resulting from modification of a physical mass to fulfil a useful purpose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Complex</IRI>
+        <Literal>Parts change their relationship with one another when form is used</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Facility</IRI>
+        <Literal>Form that controls the movement of prey or protects it to the user&apos;s advantage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Facility-Tended</IRI>
+        <Literal>Facility for which the physical presence of user is essential for functioning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Facility-Untended</IRI>
+        <Literal>Facility that functions in the absence of user</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Instrument</IRI>
+        <Literal>Hand-manipulated subsistant that customarily is used to impinge on passes incapable of significant motion and is relatively harmless to the user</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MetaEvent</IRI>
+        <Literal>Meta event do not describe specific events but things such as the start of an event, its end, pausing, and so on.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Naturefact</IRI>
+        <Literal>Natural form, used in place or withdrawn from a habitat, that is used without prior modification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Observed-Direct</IRI>
+        <Literal>Direct observation of an event.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OswaltTaxonomy</IRI>
+        <Literal>Oswalt, Wendell H. 1976. An Anthropological Analysis of Food-Getting Technology. New York: John Wiley &amp; Sons.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Simple</IRI>
+        <Literal>Retains some physical form before and during use</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Subsistant</IRI>
+        <Literal>Extrasomatic form that is removed from a natural context or is manufactured and is applied directly to obtain food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Technounit</IRI>
+        <Literal>Integrated, physically distinct, and unique structural configuration that contributes to the form of a finished artifact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Weapon</IRI>
+        <Literal>Form that is handled when in use and is designed to kill or maim species capable of motion</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
