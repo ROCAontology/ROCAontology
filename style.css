@@ -2,6 +2,7 @@ html {
 	height:100%;
 	background-image: url("background.png");
     background-repeat: repeat-x;
+	background-color:rgb(50,10,10);
 }
 
 body,  button,  input,  table,  textarea,  select {
@@ -40,6 +41,45 @@ section {
 	color: rgb(0,0,0);
 }
 
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+  background-color:rgb(246,224,0);
+}
+
+.box {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.box::before {
+  content: "\2B9A";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.check-box::before {
+  content: "\2B9B"; 
+  color: red;
+  background-color:rgb(246,224,115);
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+  background-color:rgb(246,224,115);
+}
 
 .tabset > input {
   display:block; /* "enable" hidden elements in IE/edge */
