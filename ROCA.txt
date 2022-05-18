@@ -98,10 +98,6 @@ owl:Thing
 			RedColobusMonkey
 			RedHowlerMonkey
 			SpiderMonkey
-		Robot
-			B21
-			TR2
-			TUM_Rosie
 	InformationBearingThing
 		DOI
 		InformationBearingObject
